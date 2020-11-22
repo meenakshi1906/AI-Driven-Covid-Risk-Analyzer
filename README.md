@@ -16,15 +16,15 @@ Blood Type (Once researchers have established evidence that people with type O b
 Our Solution
 We use the AI Watson Assistant to ask the participant for the following information and save it on a database on IBM cloud. An additional column calculates the total score gathered by each participant which then decides what risk level group they get admitted to. The score for Travel, Residential and Workplace locations are calculated with the help of machine learning. The AI compares the user’s input with that of up to date covid hotspot locations from online sources to decide how risky the location is. The occupations are also given particular score based on risk factor with the help of online data. The three risk level groups can be used by hospitals to apply one of the strategies described earlier and can help save time and cost per test kit.
 
-Covid Risk Analyzer Project link
+# Covid Risk Analyzer Project link
 (Remember to use only locations of districts of Southern Kerala. Due to limitations of IBM Cloud Trial plan we could not outsource to locations around the entire country.)
 
 https://covid-risk-analyzer-node.eu-gb.mybluemix.net/ui/#!/0?socketid=SnyG-fM8KekV8rAPAAAi
 
-Demo Video
+# Demo Video
 https://www.youtube.com/watch?v=FxsSVuUYuzc&list=PLnf9A2PCWDDTsdnbhqM3CzW4OZEoLW801&index=2&ab_channel=CyrilShaji
 
-Prepared by Team T853
+# Prepared by Team T853
 
 Cyril Shaji
 
