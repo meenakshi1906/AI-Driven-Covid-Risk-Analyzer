@@ -1,0 +1,228 @@
+contact,close_contact
+Hypertension,diseases
+no diseases,diseases
+Cancer,diseases
+Kidney Disorder,diseases
+Heart Disease,diseases
+Lung Disease,diseases
+Diabetes,diseases
+3,get_home_location
+malabar,get_location
+"kerala, thiruvananthapuram, neyyattinkara",get_location
+"kerala, thiruvananthapuram, nedumangad",get_location
+"kerala, thiruvananthapuram, attingal",get_location
+"kerala, thiruvananthapuram, varkala",get_location
+"kerala, thiruvananthapuram, chirayinkeezhu",get_location
+"kerala, thiruvananthapuram, thiruvananthapuram",get_location
+"kerala, kollam, paravoor",get_location
+"kerala, kollam, kottarakkara",get_location
+"kerala, kollam, punalur",get_location
+"kerala, kollam, pathanapuram",get_location
+"kerala, kollam, kunnathur",get_location
+"kerala, kollam, karunagappally",get_location
+"kerala, kollam, kollam",get_location
+"kerala, pathanamthitta, adoor",get_location
+"kerala, pathanamthitta, kozhenchery",get_location
+"kerala, pathanamthitta, ranni",get_location
+"kerala, pathanamthitta, mallappally",get_location
+"kerala, pathanamthitta, thiruvalla",get_location
+"kerala, pathanamthitta, pathanamthitta",get_location
+"kerala, alappuzha, mavelikkara",get_location
+"kerala, alappuzha, chengannur",get_location
+"kerala, alappuzha, kayamkulam",get_location
+"kerala, alappuzha, karthikappally",get_location
+"kerala, alappuzha, kuttanad",get_location
+"kerala, alappuzha, ambalappuzha",get_location
+"kerala, alappuzha, cherthala",get_location
+"kerala, alappuzha, alappuzha",get_location
+"kerala, kottayam, kanjirappally",get_location
+"kerala, kottayam, changanassery",get_location
+"kerala, kottayam, vaikom",get_location
+"kerala, kottayam, palai",get_location
+"kerala, kottayam, meenachil",get_location
+"kerala, kottayam, kottayam",get_location
+"kerala, idukki , peerumade",get_location
+"kerala, idukki , thodupuzha",get_location
+"kerala, idukki , udumbanchola",get_location
+"kerala, idukki , devikulam",get_location
+"kerala, idukki , idukki",get_location
+"kerala, ernakulam, kothamangalam",get_location
+"kerala, ernakulam, muvattupuzha",get_location
+"kerala, ernakulam, thrippunithura",get_location
+"kerala, ernakulam, kalamassery",get_location
+"kerala, ernakulam, kanayannur",get_location
+"kerala, ernakulam, kochi",get_location
+"kerala, ernakulam, paravur",get_location
+"kerala, ernakulam, angamaly",get_location
+"kerala, ernakulam, aluva",get_location
+"kerala, ernakulam, perumbavoor",get_location
+"kerala, ernakulam, kunnathunad",get_location
+"kerala, ernakulam, ernakulam",get_location
+"kerala, thrissur, chalakudy",get_location
+"kerala, thrissur, irinjalakuda",get_location
+"kerala, thrissur, mukundapuram",get_location
+"kerala, thrissur, kodungallur",get_location
+"kerala, thrissur, guruvayoor",get_location
+"kerala, thrissur, chavakkad",get_location
+"kerala, thrissur, kunnamkulam",get_location
+"kerala, thrissur, talappilly",get_location
+"kerala, thrissur, thrissur",get_location
+"kerala, palakkad, alathur",get_location
+"kerala, palakkad, chittur",get_location
+"kerala, palakkad, mannarkad",get_location
+"kerala, palakkad, shoranur",get_location
+"kerala, palakkad, ottappalam",get_location
+"kerala, palakkad, palakkad",get_location
+"kerala, malappuram, ponnani",get_location
+"kerala, malappuram, tirurangadi",get_location
+"kerala, malappuram, tirur",get_location
+"kerala, malappuram, perinthalmanna",get_location
+"kerala, malappuram, nilambur",get_location
+"kerala, malappuram, manjeri",get_location
+"kerala, malappuram, ernad",get_location
+"kerala, malappuram, malappuram",get_location
+"kerala, kozhikode, quilandy",get_location
+"kerala, kozhikode, vadakara",get_location
+"kerala, kozhikode, kozhikode",get_location
+"kerala, wayanad, kalpetta",get_location
+"kerala, wayanad, vythiri",get_location
+"kerala, wayanad, sulthanbathery",get_location
+"kerala, wayanad, mananthavady",get_location
+"kerala, kasaragod, hosdurg",get_location
+"kerala, kasaragod, kasaragod",get_location
+"kerala, wayanad, wayanad",get_location
+"kerala, kannur, koothuparamba",get_location
+"kerala, kannur, mattannur",get_location
+"kerala, kannur, thalassery",get_location
+"kerala, kannur, payyannur",get_location
+"kerala, kannur, taliparamba",get_location
+"kerala, kannur, kannur",get_location
+"kerala, kasaragod, kanhangad",get_location
+"Office Clerks, General",get_occupation
+Couriers and Messengers,get_occupation
+Cashiers,get_occupation
+Receptionists and Information Clerks,get_occupation
+Food Preparation Workers,get_occupation
+Waiters and Waitresses,get_occupation
+Dining Room and Cafeteria Attendants and Bartender Helpers,get_occupation
+"Middle School Teachers, Except Special and Career/Technical Education",get_occupation
+"Food Servers, Nonrestaurant",get_occupation
+"Bus Drivers, Transit and Intercity",get_occupation
+First-Line Supervisors of Personal Service Workers,get_occupation
+Tellers,get_occupation
+"Ushers, Lobby Attendants, and Ticket Takers",get_occupation
+First-Line Supervisors of Police and Detectives,get_occupation
+Police Patrol Officers,get_occupation
+Medical Secretaries,get_occupation
+Massage Therapists,get_occupation
+"Elementary School Teachers, Except Special Education",get_occupation
+"Preschool Teachers, Except Special Education",get_occupation
+Teacher Assistants,get_occupation
+Amusement and Recreation Attendants,get_occupation
+Pharmacists,get_occupation
+Childcare Workers,get_occupation
+Healthcare Social Workers,get_occupation
+Social and Human Service Assistants,get_occupation
+Correctional Officers and Jailers,get_occupation
+Nurse Practitioners,get_occupation
+First-Line Supervisors of Correctional Officers,get_occupation
+"Hairdressers, Hairstylists, and Cosmetologists",get_occupation
+Pharmacy Technicians,get_occupation
+First-Line Supervisors of Food Preparation and Serving Workers,get_occupation
+Municipal Firefighters,get_occupation
+Medical Equipment Preparers,get_occupation
+Personal Care Aides,get_occupation
+"Kindergarten Teachers, Except Special Education",get_occupation
+Home Health Aides,get_occupation
+"Bus Drivers, School or Special Client",get_occupation
+Skincare Specialists,get_occupation
+Psychiatric Aides,get_occupation
+Psychiatric Technicians,get_occupation
+Veterinarians,get_occupation
+Emergency Medical Technicians and Paramedics,get_occupation
+Nurse Anesthetists,get_occupation
+Medical Assistants,get_occupation
+Nursing Assistants,get_occupation
+Veterinary Assistants and Laboratory Animal Caretakers,get_occupation
+Occupational Therapy Assistants,get_occupation
+Flight Attendants,get_occupation
+Occupational Therapists,get_occupation
+Physical Therapists,get_occupation
+Physical Therapist Assistants,get_occupation
+Cardiovascular Technologists and Technicians,get_occupation
+"Internists, General (Internal Medicine)",get_occupation
+Physician Assistants,get_occupation
+Physical Therapist Aides,get_occupation
+Diagnostic Medical Sonographers,get_occupation
+Surgical Technologists,get_occupation
+Licensed Practical and Licensed Vocational Nurses,get_occupation
+Radiologic Technicians,get_occupation
+Respiratory Therapists,get_occupation
+Registered Nurses,get_occupation
+Family and General Practitioners,get_occupation
+Orderlies (Patient Care Assistants),get_occupation
+"Dentists, General",get_occupation
+Dental Assistants,get_occupation
+Respiratory Therapy Technicians,get_occupation
+Dental Hygienists,get_occupation
+dentist,get_occupation
+Manicurists and Pedicurists,get_occupation
+Economists,get_occupation
+Computer Network Architects,get_occupation
+Actuaries,get_occupation
+Computer Hardware Engineers,get_occupation
+Web Developers,get_occupation
+Graphic Designers,get_occupation
+Management Analysts,get_occupation
+Market Research Analysts and Marketing Specialists,get_occupation
+Postal Service Mail Carriers,get_occupation
+Financial Analysts,get_occupation
+"Education Teachers, Postsecondary",get_occupation
+Personal Financial Advisors,get_occupation
+"Bookkeeping, Accounting, and Auditing Clerks",get_occupation
+"Janitors and Cleaners, Except Maids and Housekeeping Cleaners",get_occupation
+Lawyers,get_occupation
+Computer Programmers,get_occupation
+Marketing Managers,get_occupation
+"Financial Managers, Branch or Department",get_occupation
+"Sales Agents, Securities and Commodities",get_occupation
+Refuse and Recyclable Material Collectors,get_occupation
+Chief Executives,get_occupation
+Laundry and Dry-Cleaning Workers,get_occupation
+Light Truck or Delivery Services Drivers,get_occupation
+Taxi Drivers and Chauffeurs,get_occupation
+Construction Laborers,get_occupation
+"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",get_occupation
+Real Estate Sales Agents,get_occupation
+"Secondary School Teachers, Except Special and Career/Technical Education",get_occupation
+Retail Salespersons,get_occupation
+"Counter Attendants, Cafeteria, Food Concession, and Coffee Shop",get_occupation
+Food Service Managers,get_occupation
+Maids and Housekeeping Cleaners,get_occupation
+sore throat,get_symptoms
+cold,get_symptoms
+diarrhea,get_symptoms
+tiredness,get_symptoms
+My throat feels dry.,get_symptoms
+I have dry cough.,get_symptoms
+nasal congestion,get_symptoms
+runny nose,get_symptoms
+breathing difficulty,get_symptoms
+body pain,get_symptoms
+i am fine,get_symptoms
+I have a fever,get_symptoms
+I feel tired all the time.,get_symptoms
+2,get_travel_location
+1,get_work_location
+int,international_travel
+national,national_travel
+another travel location,national_travel
+no contact,no_close_contact
+5,no_diseases
+no other travel location,no_other_travel
+none,no_symptoms
+No other symptoms,no_symptoms
+no places visited,no_travel
+"Yes, I have other symptoms",other_symptoms
+other work,other_work
+riskfree work,riskfree_work

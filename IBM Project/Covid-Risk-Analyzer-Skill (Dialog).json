@@ -1,0 +1,1575 @@
+{
+  "intents": [
+    {
+      "intent": "get_symptoms",
+      "examples": [
+        {
+          "text": "My throat feels dry."
+        },
+        {
+          "text": "cold"
+        },
+        {
+          "text": "diarrhea"
+        },
+        {
+          "text": "sore throat"
+        },
+        {
+          "text": "I feel tired all the time."
+        },
+        {
+          "text": "I have a fever"
+        },
+        {
+          "text": "I have dry cough."
+        },
+        {
+          "text": "i am fine"
+        },
+        {
+          "text": "body pain"
+        },
+        {
+          "text": "breathing difficulty"
+        },
+        {
+          "text": "runny nose"
+        },
+        {
+          "text": "nasal congestion"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "riskfree_work",
+      "examples": [
+        {
+          "text": "riskfree work"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "diseases",
+      "examples": [
+        {
+          "text": "Lung Disease"
+        },
+        {
+          "text": "no diseases"
+        },
+        {
+          "text": "Diabetes"
+        },
+        {
+          "text": "Cancer"
+        },
+        {
+          "text": "Kidney Disorder"
+        },
+        {
+          "text": "Heart Disease"
+        },
+        {
+          "text": "Hypertension"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_location",
+      "examples": [
+        {
+          "text": "kerala, ernakulam, kothamangalam"
+        },
+        {
+          "text": "kerala, thiruvananthapuram, neyyattinkara"
+        },
+        {
+          "text": "kerala, thiruvananthapuram, nedumangad"
+        },
+        {
+          "text": "kerala, thiruvananthapuram, attingal"
+        },
+        {
+          "text": "kerala, thiruvananthapuram, varkala"
+        },
+        {
+          "text": "kerala, thiruvananthapuram, chirayinkeezhu"
+        },
+        {
+          "text": "kerala, thiruvananthapuram, thiruvananthapuram"
+        },
+        {
+          "text": "kerala, kollam, paravoor"
+        },
+        {
+          "text": "kerala, kollam, kottarakkara"
+        },
+        {
+          "text": "kerala, kollam, punalur"
+        },
+        {
+          "text": "kerala, kollam, pathanapuram"
+        },
+        {
+          "text": "kerala, kollam, kunnathur"
+        },
+        {
+          "text": "kerala, kollam, karunagappally"
+        },
+        {
+          "text": "kerala, kollam, kollam"
+        },
+        {
+          "text": "kerala, pathanamthitta, adoor"
+        },
+        {
+          "text": "kerala, pathanamthitta, kozhenchery"
+        },
+        {
+          "text": "kerala, pathanamthitta, ranni"
+        },
+        {
+          "text": "kerala, pathanamthitta, mallappally"
+        },
+        {
+          "text": "kerala, pathanamthitta, thiruvalla"
+        },
+        {
+          "text": "kerala, pathanamthitta, pathanamthitta"
+        },
+        {
+          "text": "kerala, alappuzha, mavelikkara"
+        },
+        {
+          "text": "kerala, alappuzha, chengannur"
+        },
+        {
+          "text": "kerala, alappuzha, kayamkulam"
+        },
+        {
+          "text": "kerala, alappuzha, karthikappally"
+        },
+        {
+          "text": "kerala, alappuzha, kuttanad"
+        },
+        {
+          "text": "kerala, alappuzha, ambalappuzha"
+        },
+        {
+          "text": "kerala, alappuzha, cherthala"
+        },
+        {
+          "text": "kerala, alappuzha, alappuzha"
+        },
+        {
+          "text": "kerala, kottayam, kanjirappally"
+        },
+        {
+          "text": "kerala, kottayam, changanassery"
+        },
+        {
+          "text": "kerala, kottayam, vaikom"
+        },
+        {
+          "text": "kerala, kottayam, palai"
+        },
+        {
+          "text": "kerala, kottayam, meenachil"
+        },
+        {
+          "text": "kerala, kottayam, kottayam"
+        },
+        {
+          "text": "kerala, idukki , peerumade"
+        },
+        {
+          "text": "kerala, idukki , thodupuzha"
+        },
+        {
+          "text": "kerala, idukki , udumbanchola"
+        },
+        {
+          "text": "kerala, idukki , devikulam"
+        },
+        {
+          "text": "kerala, idukki , idukki"
+        },
+        {
+          "text": "kerala, ernakulam, muvattupuzha"
+        },
+        {
+          "text": "kerala, ernakulam, thrippunithura"
+        },
+        {
+          "text": "kerala, ernakulam, kalamassery"
+        },
+        {
+          "text": "kerala, ernakulam, kanayannur"
+        },
+        {
+          "text": "kerala, ernakulam, kochi"
+        },
+        {
+          "text": "kerala, ernakulam, paravur"
+        },
+        {
+          "text": "kerala, ernakulam, angamaly"
+        },
+        {
+          "text": "kerala, ernakulam, aluva"
+        },
+        {
+          "text": "kerala, ernakulam, perumbavoor"
+        },
+        {
+          "text": "kerala, ernakulam, kunnathunad"
+        },
+        {
+          "text": "kerala, ernakulam, ernakulam"
+        },
+        {
+          "text": "kerala, thrissur, chalakudy"
+        },
+        {
+          "text": "kerala, thrissur, irinjalakuda"
+        },
+        {
+          "text": "kerala, thrissur, mukundapuram"
+        },
+        {
+          "text": "kerala, thrissur, kodungallur"
+        },
+        {
+          "text": "kerala, thrissur, guruvayoor"
+        },
+        {
+          "text": "kerala, thrissur, chavakkad"
+        },
+        {
+          "text": "kerala, thrissur, kunnamkulam"
+        },
+        {
+          "text": "kerala, thrissur, talappilly"
+        },
+        {
+          "text": "kerala, thrissur, thrissur"
+        },
+        {
+          "text": "kerala, palakkad, alathur"
+        },
+        {
+          "text": "kerala, palakkad, chittur"
+        },
+        {
+          "text": "kerala, palakkad, mannarkad"
+        },
+        {
+          "text": "kerala, palakkad, shoranur"
+        },
+        {
+          "text": "kerala, palakkad, ottappalam"
+        },
+        {
+          "text": "kerala, palakkad, palakkad"
+        },
+        {
+          "text": "kerala, malappuram, ponnani"
+        },
+        {
+          "text": "kerala, malappuram, tirurangadi"
+        },
+        {
+          "text": "kerala, malappuram, tirur"
+        },
+        {
+          "text": "kerala, malappuram, perinthalmanna"
+        },
+        {
+          "text": "kerala, malappuram, nilambur"
+        },
+        {
+          "text": "kerala, malappuram, manjeri"
+        },
+        {
+          "text": "kerala, malappuram, ernad"
+        },
+        {
+          "text": "kerala, malappuram, malappuram"
+        },
+        {
+          "text": "kerala, kozhikode, quilandy"
+        },
+        {
+          "text": "kerala, kozhikode, vadakara"
+        },
+        {
+          "text": "kerala, kozhikode, kozhikode"
+        },
+        {
+          "text": "kerala, wayanad, kalpetta"
+        },
+        {
+          "text": "kerala, wayanad, vythiri"
+        },
+        {
+          "text": "kerala, wayanad, sulthanbathery"
+        },
+        {
+          "text": "kerala, wayanad, mananthavady"
+        },
+        {
+          "text": "kerala, wayanad, wayanad"
+        },
+        {
+          "text": "kerala, kannur, koothuparamba"
+        },
+        {
+          "text": "kerala, kannur, mattannur"
+        },
+        {
+          "text": "kerala, kannur, thalassery"
+        },
+        {
+          "text": "kerala, kannur, payyannur"
+        },
+        {
+          "text": "kerala, kannur, taliparamba"
+        },
+        {
+          "text": "kerala, kannur, kannur"
+        },
+        {
+          "text": "kerala, kasaragod, kanhangad"
+        },
+        {
+          "text": "kerala, kasaragod, hosdurg"
+        },
+        {
+          "text": "kerala, kasaragod, kasaragod"
+        }
+      ]
+    },
+    {
+      "intent": "get_home_location",
+      "examples": [
+        {
+          "text": "3"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "other_symptoms",
+      "examples": [
+        {
+          "text": "Yes, I have other symptoms"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no_close_contact",
+      "examples": [
+        {
+          "text": "no contact"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_travel_location",
+      "examples": [
+        {
+          "text": "2"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "national_travel",
+      "examples": [
+        {
+          "text": "national"
+        },
+        {
+          "text": "another travel location"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "international_travel",
+      "examples": [
+        {
+          "text": "int"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "other_work",
+      "examples": [
+        {
+          "text": "other work"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no_symptoms",
+      "examples": [
+        {
+          "text": "none"
+        },
+        {
+          "text": "No other symptoms"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no_other_travel",
+      "examples": [
+        {
+          "text": "no other travel location"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no_diseases",
+      "examples": [
+        {
+          "text": "5"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_occupation",
+      "examples": [
+        {
+          "text": "Computer Network Architects"
+        },
+        {
+          "text": "Economists"
+        },
+        {
+          "text": "Physical Therapist Aides"
+        },
+        {
+          "text": "Bookkeeping, Accounting, and Auditing Clerks"
+        },
+        {
+          "text": "Personal Financial Advisors"
+        },
+        {
+          "text": "Education Teachers, Postsecondary"
+        },
+        {
+          "text": "Financial Analysts"
+        },
+        {
+          "text": "Postal Service Mail Carriers"
+        },
+        {
+          "text": "Market Research Analysts and Marketing Specialists"
+        },
+        {
+          "text": "Management Analysts"
+        },
+        {
+          "text": "Graphic Designers"
+        },
+        {
+          "text": "Web Developers"
+        },
+        {
+          "text": "Computer Hardware Engineers"
+        },
+        {
+          "text": "Actuaries"
+        },
+        {
+          "text": "Respiratory Therapy Technicians"
+        },
+        {
+          "text": "Dental Hygienists"
+        },
+        {
+          "text": "dentist"
+        },
+        {
+          "text": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+        },
+        {
+          "text": "Lawyers"
+        },
+        {
+          "text": "Computer Programmers"
+        },
+        {
+          "text": "Marketing Managers"
+        },
+        {
+          "text": "Financial Managers, Branch or Department"
+        },
+        {
+          "text": "Sales Agents, Securities and Commodities"
+        },
+        {
+          "text": "Refuse and Recyclable Material Collectors"
+        },
+        {
+          "text": "Chief Executives"
+        },
+        {
+          "text": "Laundry and Dry-Cleaning Workers"
+        },
+        {
+          "text": "Light Truck or Delivery Services Drivers"
+        },
+        {
+          "text": "Taxi Drivers and Chauffeurs"
+        },
+        {
+          "text": "Construction Laborers"
+        },
+        {
+          "text": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+        },
+        {
+          "text": "Real Estate Sales Agents"
+        },
+        {
+          "text": "Secondary School Teachers, Except Special and Career/Technical Education"
+        },
+        {
+          "text": "Retail Salespersons"
+        },
+        {
+          "text": "Counter Attendants, Cafeteria, Food Concession, and Coffee Shop"
+        },
+        {
+          "text": "Food Service Managers"
+        },
+        {
+          "text": "Maids and Housekeeping Cleaners"
+        },
+        {
+          "text": "Office Clerks, General"
+        },
+        {
+          "text": "Couriers and Messengers"
+        },
+        {
+          "text": "Cashiers"
+        },
+        {
+          "text": "Receptionists and Information Clerks"
+        },
+        {
+          "text": "Food Preparation Workers"
+        },
+        {
+          "text": "Waiters and Waitresses"
+        },
+        {
+          "text": "Dining Room and Cafeteria Attendants and Bartender Helpers"
+        },
+        {
+          "text": "Middle School Teachers, Except Special and Career/Technical Education"
+        },
+        {
+          "text": "Food Servers, Nonrestaurant"
+        },
+        {
+          "text": "Bus Drivers, Transit and Intercity"
+        },
+        {
+          "text": "Manicurists and Pedicurists"
+        },
+        {
+          "text": "First-Line Supervisors of Personal Service Workers"
+        },
+        {
+          "text": "Tellers"
+        },
+        {
+          "text": "Ushers, Lobby Attendants, and Ticket Takers"
+        },
+        {
+          "text": "First-Line Supervisors of Police and Detectives"
+        },
+        {
+          "text": "Police Patrol Officers"
+        },
+        {
+          "text": "Medical Secretaries"
+        },
+        {
+          "text": "Massage Therapists"
+        },
+        {
+          "text": "Elementary School Teachers, Except Special Education"
+        },
+        {
+          "text": "Preschool Teachers, Except Special Education"
+        },
+        {
+          "text": "Teacher Assistants"
+        },
+        {
+          "text": "Amusement and Recreation Attendants"
+        },
+        {
+          "text": "Pharmacists"
+        },
+        {
+          "text": "Childcare Workers"
+        },
+        {
+          "text": "Healthcare Social Workers"
+        },
+        {
+          "text": "Social and Human Service Assistants"
+        },
+        {
+          "text": "Correctional Officers and Jailers"
+        },
+        {
+          "text": "Nurse Practitioners"
+        },
+        {
+          "text": "First-Line Supervisors of Correctional Officers"
+        },
+        {
+          "text": "Hairdressers, Hairstylists, and Cosmetologists"
+        },
+        {
+          "text": "Pharmacy Technicians"
+        },
+        {
+          "text": "First-Line Supervisors of Food Preparation and Serving Workers"
+        },
+        {
+          "text": "Municipal Firefighters"
+        },
+        {
+          "text": "Medical Equipment Preparers"
+        },
+        {
+          "text": "Personal Care Aides"
+        },
+        {
+          "text": "Kindergarten Teachers, Except Special Education"
+        },
+        {
+          "text": "Home Health Aides"
+        },
+        {
+          "text": "Bus Drivers, School or Special Client"
+        },
+        {
+          "text": "Skincare Specialists"
+        },
+        {
+          "text": "Psychiatric Aides"
+        },
+        {
+          "text": "Psychiatric Technicians"
+        },
+        {
+          "text": "Veterinarians"
+        },
+        {
+          "text": "Emergency Medical Technicians and Paramedics"
+        },
+        {
+          "text": "Nurse Anesthetists"
+        },
+        {
+          "text": "Medical Assistants"
+        },
+        {
+          "text": "Nursing Assistants"
+        },
+        {
+          "text": "Veterinary Assistants and Laboratory Animal Caretakers"
+        },
+        {
+          "text": "Occupational Therapy Assistants"
+        },
+        {
+          "text": "Flight Attendants"
+        },
+        {
+          "text": "Occupational Therapists"
+        },
+        {
+          "text": "Physical Therapists"
+        },
+        {
+          "text": "Physical Therapist Assistants"
+        },
+        {
+          "text": "Cardiovascular Technologists and Technicians"
+        },
+        {
+          "text": "Internists, General (Internal Medicine)"
+        },
+        {
+          "text": "Physician Assistants"
+        },
+        {
+          "text": "Diagnostic Medical Sonographers"
+        },
+        {
+          "text": "Surgical Technologists"
+        },
+        {
+          "text": "Licensed Practical and Licensed Vocational Nurses"
+        },
+        {
+          "text": "Radiologic Technicians"
+        },
+        {
+          "text": "Respiratory Therapists"
+        },
+        {
+          "text": "Registered Nurses"
+        },
+        {
+          "text": "Family and General Practitioners"
+        },
+        {
+          "text": "Orderlies (Patient Care Assistants)"
+        },
+        {
+          "text": "Dentists, General"
+        },
+        {
+          "text": "Dental Assistants"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_work_location",
+      "examples": [
+        {
+          "text": "1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "close_contact",
+      "examples": [
+        {
+          "text": "contact"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no_travel",
+      "examples": [
+        {
+          "text": "no places visited"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "language": "en",
+  "metadata": {
+    "skill": {
+      "counts": {
+        "intents": 18,
+        "entities": 0,
+        "dialog_nodes": 26
+      }
+    },
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Score 1.1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\nXX"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Any other symptoms?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes, I have other symptoms"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No other symptoms"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "#get_symptoms",
+      "dialog_node": "node_10_1596997726659"
+    },
+    {
+      "type": "standard",
+      "title": "Score 6.2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\n00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1597046095111",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1597049757857"
+      },
+      "conditions": "#no_diseases",
+      "dialog_node": "node_9_1603623061945",
+      "previous_sibling": "node_5_1603623059549"
+    },
+    {
+      "type": "standard",
+      "title": "Score 6.1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\nXX"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1597046095111",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1597049757857"
+      },
+      "conditions": "#diseases",
+      "dialog_node": "node_5_1603623059549"
+    },
+    {
+      "type": "standard",
+      "title": "Score 2.2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\n00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1597041670516",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1597042167605"
+      },
+      "conditions": "#no_close_contact",
+      "dialog_node": "node_1_1603524049006",
+      "previous_sibling": "node_10_1603524031385"
+    },
+    {
+      "type": "standard",
+      "title": "Score 2.1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\nXX"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1597041670516",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1597042167605"
+      },
+      "conditions": "#close_contact",
+      "dialog_node": "node_10_1603524031385"
+    },
+    {
+      "type": "standard",
+      "title": "Other",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your occupation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1597042167605",
+      "conditions": "#other_work",
+      "dialog_node": "node_3_1597043072696"
+    },
+    {
+      "type": "standard",
+      "title": "Score 4.3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\n00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1597050037669",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1597045487266"
+      },
+      "conditions": "#no_travel",
+      "dialog_node": "node_10_1603524670590",
+      "previous_sibling": "node_1_1597044846654"
+    },
+    {
+      "type": "standard",
+      "title": "Score 4.1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\nXX"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1597050037669",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1597045007394"
+      },
+      "conditions": "#international_travel",
+      "dialog_node": "node_1_1603524501830",
+      "previous_sibling": "node_6_1597042871529"
+    },
+    {
+      "type": "standard",
+      "title": "other national travel",
+      "output": {
+        "generic": [
+          {
+            "title": "Any other places visited?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "another travel location"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no other travel location"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1597050037669",
+      "conditions": "#get_travel_location",
+      "dialog_node": "node_8_1597045007394",
+      "previous_sibling": "node_10_1603524670590",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "National Travel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter place visited (state, district, locality):"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1597050037669",
+      "conditions": "#national_travel",
+      "dialog_node": "node_1_1597044846654",
+      "previous_sibling": "node_1_1603524501830",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Travel Location",
+      "output": {
+        "generic": [
+          {
+            "title": "Travel History",
+            "options": [
+              {
+                "label": "I have travelled internationally within last 45 days.",
+                "value": {
+                  "input": {
+                    "text": "int"
+                  }
+                }
+              },
+              {
+                "label": "I have visited places other than work or home within last 28 days",
+                "value": {
+                  "input": {
+                    "text": "national"
+                  }
+                }
+              },
+              {
+                "label": "I have not travelled anywhere",
+                "value": {
+                  "input": {
+                    "text": "no places visited"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1597050037669",
+      "conditions": "#get_work_location",
+      "dialog_node": "node_6_1597042871529",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Score 3.2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\n00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1597047940809",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1597042871529"
+      },
+      "conditions": "#riskfree_work",
+      "dialog_node": "node_9_1603524215579",
+      "previous_sibling": "node_8_1603377866046"
+    },
+    {
+      "type": "standard",
+      "title": "Score 3.1",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "parent": "node_4_1597047940809",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1597046639587"
+      },
+      "conditions": "#get_occupation",
+      "dialog_node": "node_8_1603377866046",
+      "previous_sibling": "node_4_1597042167605",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Work Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your work location (state, district, locality):"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1597047940809",
+      "conditions": "",
+      "dialog_node": "node_6_1597046639587",
+      "previous_sibling": "node_9_1603524215579",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Occupation",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your occupation?",
+            "options": [
+              {
+                "label": "Work at home",
+                "value": {
+                  "input": {
+                    "text": "riskfree work"
+                  }
+                }
+              },
+              {
+                "label": "Unemployed",
+                "value": {
+                  "input": {
+                    "text": "riskfree work"
+                  }
+                }
+              },
+              {
+                "label": "Other",
+                "value": {
+                  "input": {
+                    "text": "other work"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1597047940809",
+      "conditions": "",
+      "dialog_node": "node_4_1597042167605",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Close Contact",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Score:\n00\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Have you been in close contact with anyone tested positive?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "contact"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no contact"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#no_symptoms",
+      "dialog_node": "node_5_1597041670516",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Thankyou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\n\n\nThats all the answers i need! Now Calculate your total score by adding up your individual scores."
+              },
+              {
+                "text": "\nRisk Level:\nLow (0-200)\nMedium (333-666)\nHigh (666-999)"
+              },
+              {
+                "text": "\nThankyou, have a nice day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_3_1597049757857",
+      "previous_sibling": "node_4_1597046095111",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "folder",
+      "title": "Work",
+      "dialog_node": "node_4_1597047940809",
+      "previous_sibling": "node_5_1597041670516"
+    },
+    {
+      "type": "standard",
+      "title": "Symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "List the symptoms you are experiencing, one at a time:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#other_symptoms",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_7_1603478505475",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Location type",
+      "output": {
+        "generic": [
+          {
+            "title": "Above given location was of type:",
+            "options": [
+              {
+                "label": "Workplace",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Travel",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Residential",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_6_1603310447944",
+      "previous_sibling": "node_6_1603393373823",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Residential Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your residential location (state, district, locality):"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#no_other_travel",
+      "dialog_node": "node_10_1597045487266",
+      "previous_sibling": "node_2_1597050037669",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Immunity Level",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you ever had any of the following?",
+            "options": [
+              {
+                "label": "Diabetes",
+                "value": {
+                  "input": {
+                    "text": "Diabetes"
+                  }
+                }
+              },
+              {
+                "label": "Hypertension",
+                "value": {
+                  "input": {
+                    "text": "Hypertension"
+                  }
+                }
+              },
+              {
+                "label": "Lung Disease",
+                "value": {
+                  "input": {
+                    "text": "Lung Disease"
+                  }
+                }
+              },
+              {
+                "label": "Heart Disease",
+                "value": {
+                  "input": {
+                    "text": "Heart Disease"
+                  }
+                }
+              },
+              {
+                "label": "Kidney Disorder",
+                "value": {
+                  "input": {
+                    "text": "Kidney Disorder"
+                  }
+                }
+              },
+              {
+                "label": "Cancer",
+                "value": {
+                  "input": {
+                    "text": "Cancer"
+                  }
+                }
+              },
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#get_home_location",
+      "dialog_node": "node_4_1597046095111",
+      "previous_sibling": "node_10_1597045487266",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Score_Location ",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1603310447944"
+      },
+      "conditions": "#get_location",
+      "dialog_node": "node_6_1603393373823",
+      "previous_sibling": "node_3_1597049757857",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1603310447944",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "folder",
+      "title": "Travel",
+      "conditions": "",
+      "dialog_node": "node_2_1597050037669",
+      "previous_sibling": "node_4_1597047940809"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi! I am the Covid 19 Risk Analyzer chatbot! To calculate your Covid risk score, I will ask you a series of questions and depending on your answer, you will be given a risk score."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_7_1603478505475"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Covid Risk Analyzer Skill"
+}
